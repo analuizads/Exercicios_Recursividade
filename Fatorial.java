@@ -24,6 +24,8 @@ public class Fatorial{
        fat = fatRecursivo(n);
 
         System.out.printf("O fatorial de %d é %d", n, fat);
-        
+
+        sc.close();
+
     }
 }
